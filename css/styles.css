@@ -1,15 +1,31 @@
 body {
     margin: 0;
     padding: 0;
-	--sz: 5px; /*** size ***/
-	--sp: 10s; /*** speed ***/
-	--b1: #3c3532;
-	--b2: #1c1b18;
-	--b3: #0c0b0a;
-	--b4: #0c0b0ae0;
-	--c1: rgba(0,0,0,0);
-	--ts: 50%/calc(var(--sz) * 17.5) calc(var(--sz) * 29.5);
-	background-image: url("./images/space.jpg");
+    --dark-blue: #0F2167;
+    --normal-blue: #3559E0;
+    --light-blue: #4CB9E7;
+    --white: #FFECD6;
+}
+
+/* width */
+::-webkit-scrollbar {
+width: 20px;
+background: rgba(0,0,0,0);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #fff1e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #6c5b46;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #473b2c; 
 }
 
 .myNav {
@@ -69,7 +85,6 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* background-color: white; */
 }
 
 a:hover {
@@ -100,28 +115,4 @@ a:hover {
 
 .MyListItem {
     text-decoration: none !important;
-}
-
-
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-@media (max-width: 992px) {
-    .cube-background {
-      background: none;
-    }
-
-    main {
-        width: 100%;
-    }
 }
