@@ -75,7 +75,7 @@ a:visited {
     color: white;
 }
 
-a:hover {
+.nav-link:hover {
     /* text-shadow: 1px 1px 3px skyblue; */
     transition: .2s linear;
     border-left: 1px solid var(--light-blue);
