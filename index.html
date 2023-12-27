@@ -13,11 +13,11 @@
 <body class="background">
     <!-- Nav bar in fixed position -->
     <div class="container myNav background overlay">
-        <header class="d-flex flex-wrap justify-content-center px-4">
-          <a href="" class="d-flex align-items-center mb-0 py-3 mx-5 link-body-emphasis text-decoration-none">
-            <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
+        <header class="d-flex flex-wrap justify-content-end px-4">
+          <!-- <a href="" class="d-flex align-items-center mb-0 py-3 mx-5 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
             <span class="fs-3 nameText">Filip Jamroz</span>
-          </a>
+          </a> -->
     
           <ul class="nav nav-pills">
             <li class="nav-item sharp-edges"><a href="#" class="nav-link sharp-edges transition-text-shadow">Home</a></li>
@@ -28,23 +28,24 @@
     </div>
 
     <main>
-      <div class="py-5 my-5 text-center">
-        <!-- <img id="background-image" src="./images/dark-wood.jpg"> -->
-        <img id="profile" class="d-block mx-auto mb-4" src="./images/myProfilePic-cropped.jpg" width="110px" height="100px">
-        <!-- <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1> -->
+      <div id="hero-container">
+        <img id="hero-image" src="./images/space-fire.jpg">
+        <div id="hero" class="py-5 my-5 text-center">
+          <!-- <img id="background-image" src="./images/dark-wood.jpg"> -->
+          <img id="profile" class="d-block mx-auto mb-4" src="./images/myProfilePic-cropped.jpg" width="150px" height="140px">
+          <!-- <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1> -->
           <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4" style="font-style: italic; font-weight: 700; font-size: 2rem; color: var(--light-blue);">
-              Hi, I'm Filip, a Junior Software Developer.
+            <p class="lead mb-4" style="font-style: italic; font-weight: 700; font-size: 3rem; color: var(--light-blue); text-shadow: 2px 2px var(--normal-blue);">
+              Hi, I'm Filip, a Full Stack Developer.
             </p>
             <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
               <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
             </div> -->
           </div>
+        </div>
       </div>
-
-
-
+      
       <div id="accordion" class="mb-4">
         <h1>Projects</h1>
         Work in progress
